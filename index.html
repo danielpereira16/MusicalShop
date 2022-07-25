@@ -22,7 +22,6 @@
 
     <body>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,8 +30,16 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="products.html">Products</a>
+                    <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="pianos.html">Pianos</a>
+                    <a class="dropdown-item" href="guitars.html">Guitars</a>
+                    <a class="dropdown-item" href="basses.html">Basses</a>
+                    <a class="dropdown-item" href="drums_percussions.html">Drums/Percussion</a>
+                    <a class="dropdown-item" href="sound.html">Sound</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="accessories.html">Accessories</a>
