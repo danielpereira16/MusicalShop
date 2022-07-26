@@ -1,3 +1,20 @@
 #navbar_logo {
     height: 50px;
 }
+
+.nav-text {
+    font-family: Roboto+Condensed;
+    font-weight: 700;
+}
+
+.nav-item {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 5px 0;
+    margin: 0 8px;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
