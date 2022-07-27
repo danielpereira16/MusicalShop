@@ -3,7 +3,7 @@
 }
 
 .nav-text {
-    font-family: Roboto+Condensed;
+    font-family: 'Roboto';
     font-weight: 700;
 }
 
@@ -17,4 +17,11 @@
 .nav-item:hover {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
+}
+
+.footer{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto'; 
 }
