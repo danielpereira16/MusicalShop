@@ -21,7 +21,11 @@
 
 .footer{
     padding: 1%;
-    background-color: black;
-    color: white;
+    background-color: rgb(186, 203, 186);
+    color: rgb(27, 35, 43);
     font-family: 'Roboto'; 
+}
+
+#footer_logo {
+    width:40%;
 }
