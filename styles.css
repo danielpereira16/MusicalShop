@@ -24,6 +24,10 @@
     font-family: 'pacifico';
 }
 
+.carousel-inner{
+    text-align: center;
+}
+
 .footer{
     padding: 1%;
     background-color: rgb(186, 203, 186);
