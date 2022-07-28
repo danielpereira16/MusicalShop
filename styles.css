@@ -37,6 +37,11 @@
     font-family: 'KoHo:wght@300';
 }
 
+#centre_quote{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 .footer{
     padding: 1%;
     background-color: rgb(186, 203, 186);
