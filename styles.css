@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.carousel{
+    padding: 1%;
+}
+
 .footer{
     padding: 1%;
     background-color: rgb(186, 203, 186);
