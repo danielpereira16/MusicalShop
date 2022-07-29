@@ -32,6 +32,8 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.row{ margin-left: 0; margin-right: 0;}
+
 .carousel-caption{
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'KoHo:wght@300';
