@@ -40,6 +40,12 @@
     text-align: center;
 }
 
+.card-2{
+    width: 300px;
+    font-family: 'roboto';
+    text-align: center;
+}
+
 .carousel-caption{
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'KoHo:wght@300';
