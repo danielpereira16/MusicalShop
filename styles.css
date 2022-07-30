@@ -50,13 +50,6 @@
     text-align: center;
 }
 
-.footer{
-    padding: 1%;
-    background-color: rgb(186, 203, 186);
-    color: rgb(27, 35, 43);
-    font-family: 'Roboto'; 
-}
-
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -71,11 +64,19 @@
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    font-family: 'roboto';
   }
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+.footer{
+    padding: 1%;
+    background-color: rgb(186, 203, 186);
+    color: rgb(27, 35, 43);
+    font-family: 'Roboto'; 
+}
 
 #footer_logo {
     width:40%;
