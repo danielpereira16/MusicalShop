@@ -24,7 +24,7 @@
 }
 
 /* Centering headings for different pages */
-#centre_heading{
+.centre_heading{
     text-align: center;
     font-family: 'pacifico';
 }
@@ -70,7 +70,7 @@
 }
 
 /* Centering quote in index page */
-#centre_quote{
+.centre_quote{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
