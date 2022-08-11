@@ -1,12 +1,15 @@
+/* Navbar Logo */
 #navbar_logo {
     height: 50px;
 }
 
+/* Navbar font and how bold it is */
 .nav-text {
     font-family: 'Roboto';
     font-weight: 700;
 }
 
+/* Navbar adding the white lines above and below the buttons */
 .nav-item {
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
@@ -14,50 +17,59 @@
     margin: 0 8px;
 }
 
+/* Navbar hover style */
 .nav-item:hover {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }
 
+/* Centering headings for different pages */
 #centre_heading{
     text-align: center;
     font-family: 'pacifico';
 }
 
+/* Aligning the text in the greyish square on the carousel which had the name of the product and its price */
 .carousel-inner{
     text-align: center;
 }
 
+/* Changing the carousel background color */
 .carousel{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* Having no margins on the row to get rid of overflow issue */
 .row{ margin-left: 0; margin-right: 0;}
 
+/* Editing the card for index page */
 .card{
     width: 400px;
     font-family: 'roboto';
     text-align: center;
 }
 
+/* Editing the card for product pages and accessories page */
 .card-2{
     width: 300px;
     font-family: 'roboto';
     text-align: center;
 }
 
-
+/* Editing image top of card for acccessories page */
 .card-img-top-2{
     height: 200px;
     width: 150px;
     align-items: center;
 }
 
+/* Editing caption box for carousel for product information and price */
 .carousel-caption{
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'KoHo:wght@300';
 }
 
+/* Centering quote in index page */
 #centre_quote{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -171,6 +183,7 @@
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
+/* editing the footer style */
 .footer{
     padding: 1%;
     background-color: rgb(186, 203, 186);
@@ -178,6 +191,7 @@
     font-family: 'Roboto'; 
 }
 
+/* Editing the footer logo */
 #footer_logo {
     width:40%;
 }

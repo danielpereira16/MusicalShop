@@ -20,40 +20,51 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
 
+    <!--Body section-->
+    <!--Contains the content of the page-->
     <body>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <a class="navbar-brand" href="index.html">
-              <img id="navbar_logo" src="images/main_images/logo_index.png" alt="Logo" style="height: 50px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link nav-text" href="index.html">Home</a>
-                </li>
-                    <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle nav-text" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item nav-text" href="pianos.html">Pianos</a>
-                    <a class="dropdown-item nav-text" href="guitars.html">Guitars</a>
-                    <a class="dropdown-item nav-text" href="basses.html">Basses</a>
-                    <a class="dropdown-item nav-text" href="drums_percussions.html">Drums/Percussion</a>
-                    <a class="dropdown-item nav-text" href="sound.html">Sound</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-text" href="accessories.html">Accessories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-text" href="contact_us.html">Contact Us</a>
-                </li>     
-              </ul>
-            </div>  
-        </nav>
-
+      <!--Navigation bar-->
+      <!--Contains all the different links to the different pages-->
+      <!--Also becomes collapsable when working shrinking screen-->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+          <!--Logo connected to index page-->
+          <a class="navbar-brand" href="index.html">
+            <img id="navbar_logo" src="images/main_images/logo_index.png" alt="Logo" style="height: 50">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Link to index page of the website-->
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="index.html">Home</a>
+              </li>
+                  <!-- Dropdown Menu containing diffferent links for product pages-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-text" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item nav-text" href="pianos.html">Pianos</a>
+                  <a class="dropdown-item nav-text" href="guitars.html">Guitars</a>
+                  <a class="dropdown-item nav-text" href="basses.html">Basses</a>
+                  <a class="dropdown-item nav-text" href="drums_percussions.html">Drums/Percussion</a>
+                  <a class="dropdown-item nav-text" href="sound.html">Sound</a>
+                </div>
+                <!--Link to accessories page of the website-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="accessories.html">Accessories</a>
+              </li>
+              <!--Link to contact us page of the website-->
+              <li class="nav-item">
+                  <a class="nav-link nav-text" href="contact_us.html">Contact Us</a>
+              </li>     
+            </ul>
+          </div>  
+      </nav>
+        <!--Container in the Piano Page-->
+        <!--Set to fluid to stretch information to edge of the page without having overflow-->
+        <!--Contains Header, product images and product information-->
         <div class="container-fluid">
           <div class="row">
             <div class="col-12">
@@ -65,17 +76,23 @@
                 <div id="centre_heading"><h2>Please Contact us for avaliability and a test time</h2></div>
             </div>
           </div>
+          <!--Break in the code to add space between things-->
           <br></br>
           <div class="row">
+            <!--First Product in page-->
+            <!--Using card code for the image whilst a table for the information-->
                 <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
                     <div class="card-2">
+                      <!--First Image connected to the card with alt tag-->
                         <img class="card-img-top" src="images/pianos/yahama_u2h.jpg" alt="Yahama U2H">
+                        <!--Name of Product and Price-->
                         <div class="card-body">
                             <h2>Yahama UH2</h2>
                             <h3>$26,500</h3>
                         </div>
                     </div>
                 </div>
+                <!--Table for the information of different products-->
                 <div class="col-12 col-xs-12 col-sm-6 col-md-8 col-lg-8">
                     <table class="table table-hover">
                         <tr>
@@ -117,7 +134,9 @@
                     </table>
                 </div>
             </div>
+            <!--Break in the code to add space between things-->
             <br></br>
+            <!--Repeat of first product code, tailered to next product-->
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card-2">
@@ -170,7 +189,9 @@
                 </table>
             </div>
         </div>
+        <!--Break in the code to add space between things-->
         <br></br>
+        <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -223,7 +244,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -275,7 +298,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -327,7 +352,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -380,7 +407,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -432,7 +461,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
       <div class="row">
           <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
               <div class="card-2">
@@ -484,7 +515,9 @@
               </table>
           </div>
       </div>
+      <!--Break in the code to add space between things-->
       <br></br>
+      <!--Repeat of first product code, tailered to next product-->
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div class="card-2">
@@ -540,7 +573,9 @@
             </table>
         </div>
     </div>
+    <!--Break in the code to add space between things-->
     <br></br>
+    <!--Repeat of first product code, tailered to next product-->
   <div class="row">
       <div class="col-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
           <div class="card-2">
@@ -597,7 +632,9 @@
       </div>
   </div>
   </div>
+  <!--Break in the code to add space between things-->
   <br></br>
+        <!--Button to go to the top of the page, Button name: top-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         
         <script>
@@ -622,6 +659,9 @@
           }
         </script>
         
+        <!--Footer Class-->
+        <!--Contains different links to different pages and social media-->
+        <!--Broken up into 4 different columns: Logo, Company Info, Products, Social Media-->
         <div class="footer">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">

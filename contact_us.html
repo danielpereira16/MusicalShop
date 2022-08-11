@@ -20,40 +20,52 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
 
+    <!--Body section-->
+    <!--Contains the content of the page-->
     <body>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <a class="navbar-brand" href="index.html">
-              <img id="navbar_logo" src="images/main_images/logo_index.png" alt="Logo" style="height: 50px">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link nav-text" href="index.html">Home</a>
-                </li>
-                    <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle nav-text" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item nav-text" href="pianos.html">Pianos</a>
-                    <a class="dropdown-item nav-text" href="guitars.html">Guitars</a>
-                    <a class="dropdown-item nav-text" href="basses.html">Basses</a>
-                    <a class="dropdown-item nav-text" href="drums_percussions.html">Drums/Percussion</a>
-                    <a class="dropdown-item nav-text" href="sound.html">Sound</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-text" href="accessories.html">Accessories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-text" href="contact_us.html">Contact Us</a>
-                </li>     
-              </ul>
-            </div>  
-        </nav>
+      <!--Navigation bar-->
+      <!--Contains all the different links to the different pages-->
+      <!--Also becomes collapsable when working shrinking screen-->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+          <!--Logo connected to index page-->
+          <a class="navbar-brand" href="index.html">
+            <img id="navbar_logo" src="images/main_images/logo_index.png" alt="Logo" style="height: 50">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Link to index page of the website-->
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="index.html">Home</a>
+              </li>
+                  <!-- Dropdown Menu containing diffferent links for product pages-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-text" href="#" id="navbardrop" data-toggle="dropdown">Products</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item nav-text" href="pianos.html">Pianos</a>
+                  <a class="dropdown-item nav-text" href="guitars.html">Guitars</a>
+                  <a class="dropdown-item nav-text" href="basses.html">Basses</a>
+                  <a class="dropdown-item nav-text" href="drums_percussions.html">Drums/Percussion</a>
+                  <a class="dropdown-item nav-text" href="sound.html">Sound</a>
+                </div>
+                <!--Link to accessories page of the website-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="accessories.html">Accessories</a>
+              </li>
+              <!--Link to contact us page of the website-->
+              <li class="nav-item">
+                  <a class="nav-link nav-text" href="contact_us.html">Contact Us</a>
+              </li>     
+            </ul>
+          </div>  
+      </nav>
 
+        <!--Container in the contact us Page-->
+        <!--Set to fluid to stretch information to edge of the page without having overflow-->
+        <!--Contains Header, map, videos and contact details-->
         <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -61,6 +73,7 @@
               </div>
             </div>
             <br></br>
+            <!--interactive map-->
             <div class="row">
               <div class="col-12">
                 <div class="Map">
@@ -68,7 +81,9 @@
                 </div>
               </div>
             </div>
+            <!--Break in the code to add space between things-->
             <br></br>
+            <!--contact us details-->
             <div class="row">
               <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <table class="table table-hover">
@@ -111,51 +126,55 @@
             <div class="row">
               <div class="col-12">
                 <div id="centre_heading"><h2>Please enjoy these videos by Sancta Maria College who have bought instruments from us</h2></div>
-                <p></p>
                 </div>
               </div>
             </div>
         </div>
+        <!--Break in the code to add space between things-->
         <br></br>
             <!-- Container for the image gallery -->
+            <!--uses container code-->
+            <!--has main width videos and thumbnails with screen shot on them linked to video-->
             <div class="container">
 
-                <!-- Full-width images with number text -->
+                <!-- Full-width videos with number text -->
                 <div class="mySlides">
                   <div class="numbertext">1 / 6</div>
+                  <!--Embeded video into fullwidth screen-->
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="images/contact_us_page/combo_1_video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
 
+                 <!--Repeat of first slide code, tailered to next slide-->
                 <div class="mySlides">
                   <div class="numbertext">2 / 6</div>
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="images/contact_us_page/combo_2_video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
-
+                <!--Repeat of first slide code, tailered to next slide-->
                 <div class="mySlides">
                   <div class="numbertext">3 / 6</div>
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="images/contact_us_page/combo_3_video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
-
+                <!--Repeat of first slide code, tailered to next slide-->
                 <div class="mySlides">
                   <div class="numbertext">4 / 6</div>
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="images/contact_us_page/combo_4_video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
-
+                <!--Repeat of first slide code, tailered to next slide-->
                 <div class="mySlides">
                   <div class="numbertext">5 / 6</div>
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="images/contact_us_page/big_band_1_video.mp4" allowfullscreen></iframe>
                   </div>
                 </div>
-
+                <!--Repeat of first slide code, tailered to next slide-->
                 <div class="mySlides">
                   <div class="numbertext">6 / 6</div>
                   <div class="embed-responsive embed-responsive-16by9">
@@ -195,6 +214,7 @@
                 </div>
             </div>
         
+        <!--script for the video gallery-->
         <script>
           let slideIndex = 1;
           showSlides(slideIndex);
@@ -228,8 +248,9 @@
           }
         </script>
 
+        <!--Button to go to the top of the page, Button name: top-->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+        
         <script>
           //Get the button:
           mybutton = document.getElementById("myBtn");
@@ -252,8 +273,9 @@
           }
         </script>
         
-        <br></br>
-
+        <!--Footer Class-->
+        <!--Contains different links to different pages and social media-->
+        <!--Broken up into 4 different columns: Logo, Company Info, Products, Social Media-->
         <div class="footer">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
